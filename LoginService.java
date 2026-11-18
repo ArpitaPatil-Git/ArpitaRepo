@@ -12,7 +12,7 @@ public class LoginService {
 
         return user.isPresent()
                 && "admin".equals(username)
-                && "password".equals(password);
+                && "password".equals(123);
     }
 
     interface UserRepository {
